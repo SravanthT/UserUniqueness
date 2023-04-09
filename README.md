@@ -6,6 +6,8 @@ The task is to develop a function to handle the registration routes '/register' 
 After downloading all files , update your Mongo URL in "/model/userModel.js".
 
 Run 'npm install' in terminal;
+use scripts 'npm start' to start server;
+use scripts 'npm test' to run test cases;
 you can test to create users in '/register' , "/api/register" findout the results;
 
 sample body for '/register'
@@ -24,3 +26,5 @@ sample body for '/api/register'
   "cc": 91,
   "Address": "H.No 5/559, xyz City"
 }
+
+
