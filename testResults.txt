@@ -1,0 +1,49 @@
+
+  Registration Routes
+    POST /register
+connected to db.
+      ✔ should register a new user (994ms)
+      ✔ should return 400 if user already exists (112ms)
+    POST /api/register
+      ✔ should register a new user (81ms)
+      ✔ should return 400 if user already exists (78ms)
+    POST /register
+      ✔ should register a new user (84ms)
+      ✔ should return 400 if user already exists (86ms)
+    POST /register
+      ✔ should register a new user (106ms)
+      ✔ should return 400 if user already exists (87ms)
+    POST /api/register
+      ✔ should register a new user (85ms)
+      ✔ should return 400 if user already exists (85ms)
+    POST /api/register
+      ✔ should register a new user (96ms)
+      ✔ should return 400 if user already exists (87ms)
+    POST /register
+      ✔ should register a new user (90ms)
+      ✔ should return 400 if user already exists (95ms)
+    POST /register
+      ✔ should register a new user (92ms)
+      ✔ should return 400 if user already exists (84ms)
+    POST /api/register
+      ✔ should register a new user (80ms)
+      ✔ should return 400 if user already exists (90ms)
+    POST /api/register
+      ✔ should register a new user (89ms)
+      ✔ should return 400 if user already exists (81ms)
+    POST /register
+      1) should register a new user
+      ✔ should return 400 if user already exists (82ms)
+      
+ 21 passing (3s)
+  1 failing // 1 will fail because we are trying to create an existing user, compare 11th object in db.js file
+
+  1) Registration Routes
+       POST /register
+         should register a new user:
+
+      AssertionError: expected 400 to equal 200
+      + expected - actual
+
+      -400
+      +200
