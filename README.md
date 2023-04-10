@@ -27,4 +27,4 @@ sample body for '/api/register'
   "Address": "H.No 5/559, xyz City"
 }
 
-
+kindly note that test results are stored in 'testResults.txt' file.
